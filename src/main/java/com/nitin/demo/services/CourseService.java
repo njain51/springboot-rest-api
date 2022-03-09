@@ -1,6 +1,7 @@
 package com.nitin.demo.services;
 
 import com.nitin.demo.entities.Course;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

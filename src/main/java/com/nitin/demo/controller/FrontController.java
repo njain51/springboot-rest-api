@@ -36,7 +36,7 @@ public class FrontController {
 
     // Get detail of course by id
     @RequestMapping(path = "/courses/{courseId}", method = RequestMethod.GET)
-    public Course getCourse(@PathVariable int courseId) {
+    public Course getCourse(@PathVariable long courseId) {
 
         return this.courseService.getCourse(courseId);
     }

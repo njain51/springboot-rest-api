@@ -3,6 +3,7 @@ package com.nitin.demo.services;
 import com.nitin.demo.dao.CourseDao;
 import com.nitin.demo.entities.Course;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -10,16 +10,16 @@ public class Course
     private long id;
 
     private String title;
-    private String Desc;
+    private String description;
 
     public Course() {
         super();
     }
 
-    public Course(long id, String title, String desc) {
+    public Course(long id, String title, String description) {
         this.id = id;
-        Desc = desc;
         this.title = title;
+        this.description = description;
     }
 
     public long getId() {
@@ -30,12 +30,12 @@ public class Course
         this.id = id;
     }
 
-    public String getDesc() {
-        return Desc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesc(String desc) {
-        Desc = desc;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getTitle() {
@@ -44,5 +44,14 @@ public class Course
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

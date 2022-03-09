@@ -1,10 +1,10 @@
-package com.nitin.demo.springbootrestapi;
+package com.nitin.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootRestApiApplicationTests {
+class SpringrestApplicationTests {
 
 	@Test
 	void contextLoads() {
